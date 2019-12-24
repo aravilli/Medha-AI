@@ -30,6 +30,8 @@ Learn Classification Alogirithem (Support Vector Machines ) and try the Digits d
     e) Use the SVM to predict ( use the last 1200 records data)
     f) Findout the accuracy scores
     
+    I have added a sample code in Phising_Predict.ipynb ( Jupyter node book file to download and run )
+    
 
 Sample code :
     
