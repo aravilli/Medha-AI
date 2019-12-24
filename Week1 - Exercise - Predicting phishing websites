@@ -1,31 +1,34 @@
 Objectives for this week :
 
-1) Try some python code to read data ( CSV data ) from a file using numpy and print first 100 rows, last 100 rows etc 
+1) Try some python code to read data ( CSV data ) from a file using Numpy and print first 100 rows, last 100 rows etc 
     refer :  https://www.dataquest.io/blog/numpy-tutorial-python/ 
 
-2) Supervisied Learning
+2) Supervised Learning
 
-Learn Classification Alogirithem (Support Vector Machines ) and try the Digits data Set (for image recognition) using sci-kit learn. 
+Learn Classification Algorithm  (Support Vector Machines ) and try the Digits data Set (for image recognition) using 
+sci-kit learn. 
 
   refer : https://scikit-learn.org/stable/tutorial/basic/tutorial.html
 
-3)  Predicitng Phishing Websites (URLs)
+3)  Predicting  Phishing Websites (URLs)
 
     Data set - Phishing Websites Data Set 
     
-    Go through the publicaly avaialble data set from UCI repository.  Phishing Websites dataset consists of 2456 instance with      30 attributes(features) and classificaiton whether the instnace is a legitimate one or phishing
+    Go through the publicly available dataset from UCI repository.  Phishing Websites dataset consists of 2456 instance 
+    with 30 attributes(features) and classification whether the instance is a legitimate one or phishing one. 
 
     https://archive.ics.uci.edu/ml/datasets/Phishing+Websites 
     
-    Download the word document (Phishing Websites Features.docs) which explains about each feature ( IP Address, Long URL, short URL, sub domain name, etc ... ) and understand the data set in detail. 
+    Download the word document (Phishing Websites Features.docs) which explains about each feature ( IP Address, 
+    Long URL, short URL, sub domain name, etc ... ) and understand the data set in detail. 
     
     Download the actual data set ( TrainingDataset.arff) file which consists of the 2456 records and attributes ( features)
     
-    Exericses for this week :
+    Exercises for this week :
     
     a) Load the data set using Python numpy.genfromtxt function to numpy arrys
-    b) Use the first 1200 records as training data set , use the last column as label for the classification 
-    c) Use the last 1200 records as test data set
+    b) Use the first 1250 records as training data set , use the last column as label for the classification 
+    c) Use the last 1250 records as test data set
     d) Use the SVM to train
     e) Use the SVM to predict ( use the last 1200 records data)
     f) Findout the accuracy scores
@@ -40,7 +43,7 @@ from sklearn import svm
 from sklearn.metrics import accuracy_score
 
 # load data 
-training_data = np.genfromtxt('/Users/saravill/Downloads/TrainingDataset.arff', delimiter=',', dtype=np.int32)
+training_data = np.genfromtxt('/Users/saravill/Exercise/Phising/TrainingDataset.arff', delimiter=',', dtype=np.int32)
 
 inputs = training_data[:,:-1]
 outputs= training_data[:, -1]
