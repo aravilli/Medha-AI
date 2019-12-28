@@ -15,6 +15,20 @@ https://physionet.org/content/challenge-2019/1.0.0/
 
 Try to download the dataset provided by the PhysioNet and use any one of the supervised machine learning algorithem ( SVM, RF, Logistic Regression etc ) and predict whether the ICU patient will be classified as Sepsis or not. 
 
+Week 2:  
+
+Objectives : Learn about Decisison Tree Classifier and Random Forrest Classifier
+
+Read :
+
+https://scikit-learn.org/stable/modules/ensemble.html#forest https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+
+Try the same dataset and use Random Forrest Algorithm and classify the URLs and predict the accuracy.
+
+Refer : Phishing-RF.ipynb. ( solution using RF )
+
+Week 3:
+
 
 
 
