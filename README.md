@@ -1,8 +1,6 @@
 # Medha-AI
 
-Democratize ML AI Knowledge and sample projects
-
-This repository mainly to build expdertise in Artificial Intelligence. 
+Democratize ML AI Knowledge.  This repository mainly to build expertise in Artificial Intelligence and Machine Learning using security domain use cases
 
 # Week1 ( 24th December, 2019 )
 
