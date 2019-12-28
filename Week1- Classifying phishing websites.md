@@ -1,4 +1,4 @@
-Objectives for this week :
+# Objectives for this week :
 
 1) Try some python code to read data ( CSV data ) from a file using Numpy and print first 100 rows, last 100 rows etc 
     refer :  https://www.dataquest.io/blog/numpy-tutorial-python/ 
@@ -24,7 +24,7 @@ sci-kit learn.
     
     Download the actual data set ( TrainingDataset.arff) file which consists of the 2456 records and attributes ( features)
     
-    Exercises for this week :
+    # Exercises for this week :
     
     a) Load the data set using Python numpy.genfromtxt function to numpy arrys
     b) Use the first 1250 records as training data set , use the last column as label for the classification 
@@ -36,19 +36,19 @@ sci-kit learn.
     I have added a sample code in Phising_Predict.ipynb ( Jupyter node book file to download and run )
     
 
-Sample code :
+# Sample code :
     
 import numpy as np
 from sklearn import svm
 from sklearn.metrics import accuracy_score
 
-# load data 
+#load data 
 training_data = np.genfromtxt('/Users/saravill/Exercise/Phising/TrainingDataset.arff', delimiter=',', dtype=np.int32)
 
 inputs = training_data[:,:-1]
 outputs= training_data[:, -1]
 
-# split test data and train data
+#split test data and train data
 
 training_inputs = inputs[:1250]
 training_outputs = outputs[:1250] 
@@ -56,12 +56,12 @@ training_outputs = outputs[:1250]
 testing_inputs = inputs[1250:]
 testing_outputs = outputs[1250:]
 
-# use SVM Classifier
+#use SVM Classifier
 
 classifier = svm.SVC()
 classifier.fit(training_inputs, training_outputs)
 
-# predict the last 1000+ reocrds 
+#predict the last 1000+ reocrds 
 
 predictions = classifier.predict(testing_inputs)
 
