@@ -1,6 +1,8 @@
 # Medha-AI
 
-Democratize ML AI Knowledge.  This repository mainly to build expertise in Artificial Intelligence and Machine Learning using security domain use cases
+Democratize ML AI Knowledge.  This repository mainly to build expertise in Artificial Intelligence and Machine Learning using security domain use cases.
+
+https://www.linkedin.com/pulse/ace-your-knowledge-machine-learning-artificial-solving-aravilli  
 
 # Week1 - Develop a ML Model to predict phishing websites using UCI's phishing website dataset
 
