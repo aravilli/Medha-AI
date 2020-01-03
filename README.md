@@ -2,14 +2,16 @@
 
 Democratize ML AI Knowledge.  This repository mainly to build expertise in Artificial Intelligence and Machine Learning using security domain use cases.
 
-# Interview Questions 
+# Interview Questions in ML and AI
 
 https://www.linkedin.com/pulse/ace-your-knowledge-machine-learning-artificial-solving-aravilli  
 
 # Open Soruce Data Sets 
+
 Learn more about security and ML Models used in this space 
 
 https://github.com/cisco/joy 
+
 https://github.com/endgameinc/ember
 
 # Week1 - Develop a ML Model to predict phishing websites using UCI's phishing website dataset
