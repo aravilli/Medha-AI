@@ -6,13 +6,17 @@ Democratize ML AI Knowledge.  This repository mainly to build expertise in Artif
 
 https://www.linkedin.com/pulse/ace-your-knowledge-machine-learning-artificial-solving-aravilli  
 
-# Open Soruce Data Sets 
+# Open Source Data Sets 
 
 Learn more about security and ML Models used in this space 
 
 https://github.com/cisco/joy 
 
 https://github.com/endgameinc/ember
+
+# Adversial Links 
+
+https://towardsdatascience.com/evading-machine-learning-malware-classifiers-ce52dabdb713 
 
 # Week1 - Develop a ML Model to predict phishing websites using UCI's phishing website dataset
 
